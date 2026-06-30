@@ -1,1 +1,25 @@
-Part 1 1.When I type a website address like google.com and press Enter, a request is being sent. The Domain Name System (DNS) converts google.com into its particular IP address because computers understand IP addresses and not names. The browser then sends the request to that IP address, where it reaches the load balancer. The load balancer distributes the request to one of the available web servers. The web server processes the request and sends the webpage back to my browser, where the Google landing page is displayed.
+Part 1 
+1.When I type a website address like google.com and press Enter, a request is being sent. The Domain Name System (DNS) converts google.com into its particular IP address because computers understand IP addresses and not names. The browser then sends the request to that IP address, where it reaches the load balancer. The load balancer distributes the request to one of the available web servers. The web server processes the request and sends the webpage back to my browser, where the Google landing page is displayed.
+
+2.A client is a device or application that is able to send requests to another computer. An example is a laptop.
+A server is a computer that receives requests from clients, processes them, and sends back the required information. An example is Google's web server.
+
+3.DNS stands for Domain Name System every website has an IP address which consists of numbers and that is the language that the computer understands but humans are not able to remember the numbers everytime so the Domain name system now converts the words that humans understand into the numbers the computer understands.
+
+4.A firewall is responsible for protecting systems from malicious and harmful actions by blocking unauthorized access.
+A load balancer is responsible for distributing requests among different servers so that one server does not become overloaded.
+The difference is that a firewall provides security, while a load balancer improves performance and availability by sharing traffic across multiple servers.
+
+5.A web server is responsible for receiving requests from the browser and storing the HTML,CSS,Javascript codes and the Application server is responsible for 
+storing the backend codes and worsk hand in hand with the database to send responses to requests sent by clients.
+A backend developer works more with the application server because it is responsible for interacting with the database and handling everything that happens behind the scenes.
+
+6.This is because it is the job of the application server to communicate with the database that stores the client's data and return only the information the client needs. The client cannot have direct access to the database without going through the application server.
+The benefit is that it keeps the database secure, prevents unauthorized access, and makes sure only the right information is returned to the client.
+
+7.ug.edu.gh/statistics is more likely to be a static website because it displays information that is mostly the same for everyone visiting the website and does not require a login.
+My MTN MoMo account page is a dynamic website because it requires me to enter my login details before I can access information like my account balance and transaction history, which is different for every user.
+
+8.Frontend is the part of the website that users see and interact with. It focuses on the visual aspects of the website like the colors, layout, fonts, and making it easy for users to navigate. It is built using technologies like HTML, CSS, JavaScript, and TypeScript.
+Backend is like the engine that powers websites and web applications. It focuses more on the server side of a website and is the invisible part that makes everything work properly behind the scenes. It handles requests, communicates with the database, and makes sure the website functions the way it should.
+If I were asked to build the login feature of a website, I would let the backend handle checking the password against the database because it is responsible for communicating with the database and keeping users' information secure. After verifying the login details, it sends the result back to the frontend to either grant or deny access.
