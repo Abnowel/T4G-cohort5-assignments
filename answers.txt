@@ -23,3 +23,11 @@ My MTN MoMo account page is a dynamic website because it requires me to enter my
 8.Frontend is the part of the website that users see and interact with. It focuses on the visual aspects of the website like the colors, layout, fonts, and making it easy for users to navigate. It is built using technologies like HTML, CSS, JavaScript, and TypeScript.
 Backend is like the engine that powers websites and web applications. It focuses more on the server side of a website and is the invisible part that makes everything work properly behind the scenes. It handles requests, communicates with the database, and makes sure the website functions the way it should.
 If I were asked to build the login feature of a website, I would let the backend handle checking the password against the database because it is responsible for communicating with the database and keeping users' information secure. After verifying the login details, it sends the result back to the frontend to either grant or deny access.
+
+Part 2
+Client (User's browser sends request) --> DNS (Converts domain name to IP address) --> Firewall (Blocks malicious or unwanted traffic) --> 
+Load Balancer (Distributes traffic to available servers) --> Web Server (Handles HTTP requests and serves content) --> Application Server (Processes logic and talks to database) --> Database (Stores and retrieves data)
+
+
+RETURN FLOW (Response goes back to user)
+Database --> Application Server --> Web Server --> Load Balancer --> Firewall --> Client (Browser displays the final webpage)
