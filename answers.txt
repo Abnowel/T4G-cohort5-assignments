@@ -31,3 +31,14 @@ Load Balancer (Distributes traffic to available servers) --> Web Server (Handles
 
 RETURN FLOW (Response goes back to user)
 Database --> Application Server --> Web Server --> Load Balancer --> Firewall --> Client (Browser displays the final webpage)
+
+Part 3
+9. Backend developers need to know how to use the command line interface because they use it for daily tasks, allowing them to work more efficiently and execute tasks faster.
+
+10.An absolute path is used to reference a file or directory from the very top of the file system. It starts from the root (/) and works all the way down, functioning perfectly no matter where you currently are in the system. An example is /home/abnowel/linux_practice/extras 
+A relative path starts from the current directory , specifies the next location of a directory relative to the current directory. An example is extras (i am in the "linux_practice" directory)
+
+11.I would tell my friend that File Explorer or Finder is good for simple tasks, but the command line is faster and more powerful. Many programming tools only work in the terminal, so learning the command line makes it easier to build projects and solve problems. For example, if you have to create 10 files named 'Chapter_1' to 'Chapter_10' in File Explorer, it takes a lot of time. Using the command line, you can create all 10 files in a single second with a single command.
+
+12.~ represents home directory
+$ means that you are regular user
