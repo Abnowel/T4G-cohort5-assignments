@@ -32,7 +32,7 @@ account1.deposit(300)
 account1.withdraw(70)
 account2.deposit(400)
 
-# Print the accouns after the transactions
+# Print the accounts after the transactions
 print(account1)
 print(account2)
 
