@@ -23,6 +23,27 @@ class BankAccount:
     def __str__(self):
         return f"Account[{self.account_holder}]| Balance: GHS {self.balance:.2f}"
 
+# Create two instances of the BankAccount class
+account1 = BankAccount("Abnowel Sam", 700)
+account2 = BankAccount("James Opoku", 2000)
+
+# Make three transactions across the two accounts
+account1.deposit(300)
+account1.withdraw(70)
+account2.deposit(400)
+
+# Print the accouns after the transactions
+print(account1)
+print(account2)
+
+# Try to withdraw more money than the account balance
+try:
+    account1.withdraw(1000)
+except ValueError as error:
+    print(f"Transaction failed: {error}")
+
+    
+
     
 
         
